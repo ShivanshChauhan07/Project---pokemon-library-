@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+img {
+  width: 135px;
+  height: 169px;
+}
+h1 {
+  text-align: center;
+  margin: 63px 0 25px 0px;
+}
+.app-container {
+  height: 100vh;
+  background-color: black;
+  color: cornsilk;
+  text-align: center;
+}
+.form-container {
+  text-align: center;
+}
+.already {
+  text-align: center;
+  margin: 18px 0;
+}
+.all-container {
+  border: 4px solid rgb(243, 230, 178);
+  min-height: 1060px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.thumb-container {
+  border: 2px solid red;
+  min-height: 323px;
+  border-radius: 25px;
+  background: cornsilk;
+  color: black;
+  padding: 1% 2%;
+  margin: 10px 0;
+}
+.number {
+  text-align: center;
+}
+.detail-wrapper {
+  text-align: center;
+  /* border: 2px solid blue; */
+  height: 91px;
+  /* margin: 12% 0%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.btn-container {
+  text-align: center;
+  padding: 1% 1%;
+}
+.show-more {
+  border-radius: 5px;
+  border-style: none;
+  padding: 1% 1%;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: rgb(28, 51, 254);
+  color: cornsilk;
+  cursor: pointer;
+}
+.all-container2 {
+  display: inline-block;
+}
+.pop-out {
+  /* border: 4px solid black; */
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 2px solid #d5c68c;
+}
+.pokinfo {
+  border-radius: 5px;
+  border-style: none;
+  padding: 1% 1%;
+  font-weight: 100;
+  font-size: 15px;
+  background-color: #246ff8;
+  color: cornsilk;
+  cursor: pointer;
+}
+.in-btn {
+  border-radius: 5px;
+  border-style: none;
+  padding: 0.5% 0.5%;
+  font-weight: 100;
+  font-size: 15px;
+  background-color: #246ff8;
+  color: cornsilk;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.pokemon-search {
+  border-style: none;
+  border-radius: 4px;
+  min-height: 31px;
+  min-width: 200px;
+  margin: 0 8px;
+  background-color: #f2f1ee;
+  color: black;
+}
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.834)
+    url("https://media.giphy.com/media/8agqybiK5LW8qrG3vJ/giphy.gif") center
+    no-repeat;
+  z-index: 1;
+}
